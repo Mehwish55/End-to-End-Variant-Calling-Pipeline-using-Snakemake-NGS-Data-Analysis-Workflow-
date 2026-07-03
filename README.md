@@ -100,7 +100,8 @@ Mehwish
 Bioinformatics Pipeline Project – Snakemake-based NGS Analysis
 
 📌 Future Improvements
--Multi-sample support
--Docker/Singularity containerization
--Cloud/HPC deployment
--Automated reporting dashboard
+
+- Multi-sample support
+- Docker/Singularity containerization
+- Cloud/HPC deployment
+- Automated reporting dashboard
