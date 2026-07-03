@@ -1,19 +1,39 @@
-# Bacterial Variant Calling Pipeline (Snakemake)
+# 🧬 End-to-End Bacterial Variant Calling Pipeline (Snakemake)
 
-## Description
-A reproducible Snakemake pipeline for bacterial genome analysis using NCBI SRA data.
+## 📌 Overview
+This project implements a reproducible Snakemake workflow for bacterial NGS data analysis, from raw FASTQ files to variant calling (VCF generation).
 
-## Workflow
-- FastQC (quality control)
-- MultiQC (summary report)
-- fastp (trimming)
-- BWA (alignment)
-- Samtools (BAM processing)
-- FreeBayes (variant calling)
+It processes *E. coli* sequencing data using standard bioinformatics tools.
 
-## Output
-- QC reports
-- VCF file (variants)
+---
 
-## Tools
-Snakemake, FastQC, MultiQC, fastp, BWA, Samtools, FreeBayes
+## ⚙️ Workflow Steps
+
+1. Quality Control (FastQC)
+2. Aggregated QC report (MultiQC)
+3. Read trimming (fastp)
+4. Read alignment (BWA)
+5. BAM processing (Samtools)
+6. Variant calling (FreeBayes)
+
+---
+
+## 📊 Final Output
+- Variant Call Format (VCF) file
+- Quality control reports
+- Aligned BAM files
+
+---
+
+## 🧪 Tools Used
+- Snakemake
+- FastQC
+- MultiQC
+- fastp
+- BWA
+- Samtools
+- FreeBayes
+
+---
+
+## 📁 Project Structure
