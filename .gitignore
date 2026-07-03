@@ -1,15 +1,20 @@
-# large NGS data
+# Raw sequencing data
 *.fastq
 *.fq
-results/bam/
-results/trimmed/
-.snakemake/
 
-# temporary files
+# Alignment files
 *.sam
 *.bam
 *.bai
 
-# system files
-__pycache__/
+# Snakemake working directory
+.snakemake/
+
+# Generated results
+results/qc/
+results/trimmed/
+results/bam/
+
+# Temporary files
 *.log
+__pycache__/
