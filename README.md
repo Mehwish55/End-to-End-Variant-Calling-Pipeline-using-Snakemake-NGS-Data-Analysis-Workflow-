@@ -21,22 +21,22 @@ It processes *E. coli* sequencing data using standard bioinformatics tools.
 ## 📊 Final Output
 The final output includes:
 
--High-confidence variant calls (VCF file)
--Quality control reports (FastQC + MultiQC)
--Processed BAM alignment files
+1. High-confidence variant calls (VCF file)
+2. Quality control reports (FastQC + MultiQC)
+3. Processed BAM alignment files
 
 
 ---
 
 ## 🧪 Tools Used
 
-Snakemake (workflow management)
-FastQC (quality control)
-MultiQC (report aggregation)
-fastp (read trimming)
-BWA (alignment)
-SAMtools (BAM processing)
-FreeBayes (variant calling)
+1. Snakemake (workflow management)
+2. FastQC (quality control)
+3. MultiQC (report aggregation)
+4. fastp (read trimming)
+5. BWA (alignment)
+6. SAMtools (BAM processing)
+7. FreeBayes (variant calling)
 
 ---
 
