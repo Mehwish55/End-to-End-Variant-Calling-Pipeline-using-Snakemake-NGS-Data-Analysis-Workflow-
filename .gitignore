@@ -1,0 +1,15 @@
+# large NGS data
+*.fastq
+*.fq
+results/bam/
+results/trimmed/
+.snakemake/
+
+# temporary files
+*.sam
+*.bam
+*.bai
+
+# system files
+__pycache__/
+*.log

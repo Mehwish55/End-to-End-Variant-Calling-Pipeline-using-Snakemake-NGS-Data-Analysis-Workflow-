@@ -1,0 +1,10 @@
+
+sample: "SRR1770413"
+
+reads:
+  R1: "data/raw/SRR1770413_1.fastq"
+  R2: "data/raw/SRR1770413_2.fastq"
+
+reference: "data/ref/ecoli_reference.fasta"
+
+threads: 4

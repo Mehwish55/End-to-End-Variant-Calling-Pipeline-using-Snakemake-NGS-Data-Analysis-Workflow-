@@ -1,0 +1,15 @@
+configfile: "config/config.yaml"
+
+rule all:
+    input:
+        "results/qc/done.txt"
+
+rule test:
+    output:
+        "results/qc/done.txt"
+
+    shell:
+        """
+        mkdir -p results/qc
+        touch {output}
+        """

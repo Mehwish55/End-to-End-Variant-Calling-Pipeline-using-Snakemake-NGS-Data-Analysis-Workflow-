@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR1770413_1	/home/mehwish/variant-pipeline/results/qc/SRR1770413_1_fastqc.zip
+FastQC	all_sections	SRR1770413_2	/home/mehwish/variant-pipeline/results/qc/SRR1770413_2_fastqc.zip
